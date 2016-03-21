@@ -35,6 +35,8 @@
     
     <p><asp:Button runat="server" OnClientClick="return purgeCompletedItems()" ID="purgecompleteditemsbutton" Text="Purge Completed Items" /></p>  
 
+    <p><asp:Button runat="server" OnClientClick="return ensureOrientationScheduling()" ID="ensureorientationschedulingbutton" Text="Ensure all items are on the Calendar" /></p>
+
     <p><asp:HyperLink runat="server" NavigateUrl="JavaScript:window.location = _spPageContextInfo.webAbsoluteUrl + '/Pages/Help.aspx';" 
     Text="Get help for the Employee Orientation add-in" /></p>
 
