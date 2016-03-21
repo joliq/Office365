@@ -45,6 +45,9 @@
   <ItemGroup>
     <Content Include="ContentTypes\NewEmployee\Elements.xml" />
     <Content Include="Pages\Help.aspx" />
+    <Content Include="RunOrientationAdd-in\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
     <Content Include="Scripts\OrientationStageRendering.js" />
     <Content Include="SiteColumns\Division\Elements.xml" />
     <Content Include="SiteColumns\OrientationStage\Elements.xml" />
@@ -68,6 +71,9 @@
     <Content Include="Lists\NewEmployeeOrientation\Schema.xml" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="RunOrientationAdd-in\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d93702c0-9ade-420e-95f7-9e77048b43a5}</SharePointProjectItemId>
+    </None>
     <None Include="SiteColumns\Division\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{c95c06c5-0c8d-4c39-b87b-e89f51ceae24}</SharePointProjectItemId>
     </None>
