@@ -31,7 +31,9 @@
     NavigateUrl="JavaScript:window.location = _spPageContextInfo.webAbsoluteUrl + '/Lists/NewEmployeesInGbg/AllItems.aspx';" 
     Text="New Employees in Gothenburg" /></p>
 
-    <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly" ID="HomePage1" Title="loc:full" />    
+    <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly" ID="HomePage1" Title="loc:full" />  
+    
+    <p><asp:Button runat="server" OnClientClick="return purgeCompletedItems()" ID="purgecompleteditemsbutton" Text="Purge Completed Items" /></p>  
 
     <p><asp:HyperLink runat="server" NavigateUrl="JavaScript:window.location = _spPageContextInfo.webAbsoluteUrl + '/Pages/Help.aspx';" 
     Text="Get help for the Employee Orientation add-in" /></p>
